@@ -1,0 +1,34 @@
+{
+  "roomies": [
+    {
+      "id": "roomie-01",
+      "name": "Chicken Head",
+      "spriteUrl": "/roomies/character_01.png",
+      "scale": 1
+    },
+    {
+      "id": "roomie-02",
+      "name": "Burger Brain",
+      "spriteUrl": "/roomies/character_02.png",
+      "scale": 1
+    },
+    {
+      "id": "roomie-03",
+      "name": "Plant Pal",
+      "spriteUrl": "/roomies/character_03.png",
+      "scale": 1
+    },
+    {
+      "id": "roomie-04",
+      "name": "Cone Head",
+      "spriteUrl": "/roomies/character_04.png",
+      "scale": 1
+    },
+    {
+      "id": "roomie-05",
+      "name": "Solar Guy",
+      "spriteUrl": "/roomies/character_05.png",
+      "scale": 1
+    }
+  ]
+}
