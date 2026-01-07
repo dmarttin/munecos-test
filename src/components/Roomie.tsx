@@ -37,8 +37,23 @@ export function Roomie({ instanceId, data, position }: RoomieProps) {
 
   const isSelected = selectedInstanceId === instanceId;
 
-  // Load texture
-  const texture = useTexture(data.spriteUrl);
+  // Load texture with error handling
+  const [textureUrl, setTextureUrl] = useState(data.spriteUrl);
+  const [hasError, setHasError] = useState(false);
+
+  let texture;
+  try {
+    texture = useTexture(textureUrl);
+  } catch (error) {
+    // If texture fails to load, use placeholder
+    if (!hasError) {
+      console.error(`Failed to load texture for ${data.name}:`, error);
+      setHasError(true);
+      setTextureUrl("/roomies/placeholder.png");
+    }
+    texture = useTexture("/roomies/placeholder.png");
+  }
+
 
   // Spawn animation
   useEffect(() => {

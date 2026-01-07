@@ -1,34 +1,60 @@
 {
+  "version": "1.0",
   "roomies": [
     {
       "id": "roomie-01",
       "name": "Chicken Head",
+      "description": "A quirky character with a chicken head. Always ready for adventure!",
       "spriteUrl": "/roomies/character_01.png",
-      "scale": 1
+      "scale": 1,
+      "tags": [
+        "funny",
+        "animal"
+      ]
     },
     {
       "id": "roomie-02",
       "name": "Burger Brain",
+      "description": "Fast food meets fast thinking. This burger-headed genius is always cooking up ideas!",
       "spriteUrl": "/roomies/character_02.png",
-      "scale": 1
+      "scale": 1,
+      "tags": [
+        "food",
+        "quirky"
+      ]
     },
     {
       "id": "roomie-03",
       "name": "Plant Pal",
+      "description": "Nature's friend with a green thumb and a leafy head. Eco-friendly and chill!",
       "spriteUrl": "/roomies/character_03.png",
-      "scale": 1
+      "scale": 1,
+      "tags": [
+        "nature",
+        "calm"
+      ]
     },
     {
       "id": "roomie-04",
       "name": "Cone Head",
+      "description": "Traffic cone style meets street smarts. Always directing the fun!",
       "spriteUrl": "/roomies/character_04.png",
-      "scale": 1
+      "scale": 1,
+      "tags": [
+        "urban",
+        "cool"
+      ]
     },
     {
       "id": "roomie-05",
       "name": "Solar Guy",
+      "description": "Powered by sunshine and good vibes. This solar-powered pal brings the energy!",
       "spriteUrl": "/roomies/character_05.png",
-      "scale": 1
+      "scale": 1,
+      "tags": [
+        "tech",
+        "energy"
+      ]
     }
   ]
 }
